@@ -27,7 +27,7 @@ SETTING = {}
 #USERNAME = os.getlogin()                     ### WSL2 & systemd cannot call os.getlogin()
 USERNAME = os.popen('whoami').read().strip()
 
-DOWNLOAD_PATH = "/home/napat/flask-kidbright/static"
+DOWNLOAD_PATH = "/content/sample_data"
 SUFFIX_DOMAIN = "wot.mecacloud.top"
 API_URL = "https://api-wot.mes.meca.in.th"
 
